@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="731dbcea6489454b8ae37c6d452dc178" Name="Diagram1">
+        <EntityTypeShape EntityType="SagdeevPCClassModel.Class" Width="1.5" PointX="0.75" PointY="1" />
+        <EntityTypeShape EntityType="SagdeevPCClassModel.Computer" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="SagdeevPCClassModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="SagdeevPCClassModel.User" Width="1.5" PointX="2.75" PointY="3.75" />
+        <AssociationConnector Association="SagdeevPCClassModel.FK_Computer_Class" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
